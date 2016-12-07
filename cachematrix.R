@@ -12,7 +12,7 @@ set <- function(y) {
   get <- function() x
   setinverse <- function(inverse) i <<- inverse
   getinverse <- function() i
-  list(set = set, get = get, setinverse=serinverse, getinverse=getinverse)
+  list(set = set, get = get, setinverse=setinverse, getinverse=getinverse)
 }
 
 ## The function below calculates the inverse of the matrix returned by the function above.
